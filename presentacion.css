@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ body{
+  font-size: 16px;
+  font-family: monospace, "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  background-image: url(imagen3.jpg);
+  text-align: center;
+  color: #666;
+  
+ }
+ 
+ #pagewrap{
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+ }
+ 
+ .gallery{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5vh 5vh;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ 
+ .image{
+  width: 100%;
+  padding: 10px;
+  margin: 2% 1.5%;
+  flex-grow: 1;
+  font-size: 20px;
+ }
+  .experienciaLaboral{
+  width: 100%;
+  padding: 10px;
+  margin: 2% 1.5%;
+  flex-grow: 1;
+  font-size: 20px;
+  color: aliceblue;
+ }
+ .experienciaLaboral:hover{
+  box-shadow: 0 1px 30px rgba(0,0,0,.3);
+  transform: scale(1.10);
+  border: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  z-index: 1;
+ }
+ .image img{
+  max-width: 100%;
+  margin: 0 auto;
+ }
+ 
+ .image:hover{
+  box-shadow: 0 1px 30px rgba(0,0,0,.3);
+  transform: scale(1.10);
+  border: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  z-index: 1;
+ }
+ 
+ .image p{
+  padding: 10px;
+ }
+
+ #imagePhoto{
+  width: 28%;
+  padding: 10px;
+  margin: 2% 1.5%;
+  flex-grow: 1;
+ }
+ .presentacion,.sobreMi{
+  font-size: 20px;
+ }
+
+.photo{
+  border-radius: 60%;
+}
+ #banner{
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  
+}
+
+header {
+  background-image: url(n2.jpg);
+  padding: 20px 0;  
+  width: 100%;
+  
+}
+.subscribe_link{
+  text-decoration: none;
+  font-size: 20px;
+  color: #666;
+  right: 0;
+  padding: 20px 0;  
+  margin-top: 60px;
+}
+.subscribe_link, .subscribe_link:hover, .subscribe_link:visited{
+  color: #aa9483;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-left: 30px;
+
+}
+
+.subscribe_link:hover{
+  color: #ffffff;
+}
+.subscribe{
+  margin-top:20px;
+}
+.container-nav{
+  height:100px;
+}
+
+#experienciaLaboral{
+  color: azure;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000;
+  text-align: center;
+  color:#aa9483 ;
+}
+
+.lineaVertical{
+  border-left: 3px solid #aa9483;
+  height: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.titulo{
+  margin-top: 55px;
+  font-size: 40px;
+}
